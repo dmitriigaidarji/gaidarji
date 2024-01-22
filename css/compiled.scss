@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
 
@@ -40,17 +41,16 @@ a {
     vertical-align: middle;
     text-align: start;
   }
-  #my-name{
+  #my-name {
     font-size: 200%;
     font-weight: bold;
     padding: 5px 0;
   }
-  #full-stack{
+  #full-stack {
     font-size: 130%;
     font-weight: 200;
     padding: 5px 0;
     animation: 5s ease-out 0s 1 opacityZeroToOne;
-
   }
 }
 #profile {
@@ -61,15 +61,15 @@ a {
   animation: 2s ease-out 0s 1 slideInFromLeft;
 }
 
-.flex{
-  display: flex
+.flex {
+  display: flex;
 }
-#left-panel{
+#left-panel {
   flex: 1;
   background: #f7f6eb;
   border-right: 1px solid #555555;
   border-bottom: 1px solid #555555;
-  >div{
+  > div {
     padding: 20px;
   }
   .links {
@@ -86,18 +86,18 @@ a {
   }
 }
 
-#main-panel{
+#main-panel {
   flex: 4;
-  > div{
+  > div {
     padding: 20px;
   }
 }
 @media screen and (max-width: 900px) {
-  .flex{
+  .flex {
     display: block;
   }
 }
-.title{
+.title {
   border-bottom: 1px solid #a8a8a8;
   font-weight: 400;
   font-size: 125%;
@@ -110,20 +110,19 @@ ul {
   }
 }
 
-.tools{
+.tools {
   font-style: italic;
 }
 
-.separator{
+.separator {
   height: 1px;
   background: #a1a1a1;
   margin: 50px 0;
   width: 100%;
 }
 
-.flag{
+.flag {
   width: 20px;
   margin-right: 10px;
   vertical-align: baseline;
 }
-
