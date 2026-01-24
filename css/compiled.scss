@@ -32,7 +32,10 @@ a {
 #top-bar {
   width: 100%;
   text-align: center;
-  background: #242624;
+  background-color: #1f2a38;
+  background-image: linear-gradient(135deg, #1f2a38 0%, #2e3b4e 45%, #3b536a 100%);
+  background-size: 200% 200%;
+  animation: topBarGradient 14s ease-in-out infinite;
   color: white;
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.5);
   > * {
