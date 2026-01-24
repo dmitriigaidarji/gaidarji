@@ -244,3 +244,8 @@ textarea {
     page-break-after: avoid;
   }
 }
+
+#badges {
+  text-align: center;
+  margin-top: 30px;
+}
