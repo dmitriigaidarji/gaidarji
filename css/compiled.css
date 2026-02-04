@@ -101,7 +101,10 @@ a {
 #left-panel .links > * i {
   margin-right: 10px;
 }
-
+#main-panel p {
+  font-weight: 300;
+  font-size: 110%;
+}
 #main-panel {
   flex: 4;
 }
